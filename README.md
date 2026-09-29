@@ -2,6 +2,12 @@
 
 A fully responsive, full-stack web application designed for managing and displaying college club events. This platform serves both the student body (for discovering and registering for events) and club organizers (for creating events and managing attendees).
 
+## 🧪 For Evaluators / Graders
+To test the admin features on the live site, navigate to the `/admin` route and use the following password:
+**Password:** `Admincontrol11`
+
+---
+
 ## 🚀 Key Features
 
 ### 1. Student/User Side (Public Facing)

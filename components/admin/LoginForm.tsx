@@ -31,6 +31,9 @@ export default function LoginForm() {
           name="password" type="password" required autoFocus placeholder="admin password"
           className="w-full rounded border border-line bg-panel px-3 py-2 font-mono text-sm outline-none focus:border-accent"
         />
+        <p className="font-mono text-[10px] text-muted">
+          hint: see GitHub repo README for password
+        </p>
         {error && <p role="alert" className="text-sm text-red-300">{error}</p>}
         <button disabled={busy} className="w-full rounded bg-accent px-4 py-2 font-mono text-sm font-semibold text-black disabled:opacity-60">
           {busy ? "checking..." : "login"}
